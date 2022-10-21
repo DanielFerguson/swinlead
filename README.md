@@ -1,49 +1,47 @@
-# Welcome to [Astro](https://astro.build)
+# Swinburne Leadership Hub
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
+## Roadmap
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- [ ] 
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+## Technologies
 
+### Frontend
 
-## 🚀 Project Structure
+- [Astro JS](https://astro.build/)
+- Deployed with [Vercel](https://vercel.com/)
 
-Inside of your Astro project, you'll see the following folders and files:
+### Backend
 
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- [Wordpress](https://wordpress.org/)
+- Hosted on [AWS Lightsail](https://aws.amazon.com/lightsail/)
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Contributing
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### How to contribute
 
-Any static assets, like images, can be placed in the `public/` directory.
+#### Workflow model
 
-## 🧞 Commands
+In order to keep the repository as tidy and in-line as possible, please use the [gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) workflow model.
 
-All commands are run from the root of the project, from a terminal:
+#### Sharing work for feedback
 
-| Command                | Action                                             |
-| :--------------------- | :------------------------------------------------- |
-| `npm install`          | Installs dependencies                              |
-| `npm run dev`          | Starts local dev server at `localhost:3000`        |
-| `npm run build`        | Build your production site to `./dist/`            |
-| `npm run preview`      | Preview your build locally, before deploying       |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro preview` |
-| `npm run astro --help` | Get help using the Astro CLI                       |
+If you want to share your work for feedback, you will be able to push the branch to the origin (GitHub). Any time Vercel detects a new branch, it will attempt to deploy it for inspection. This method of sharing work for feedback allows non-technical users to provide it quickly. In order to find your vanity URL (the URL attached to your branch-based deployment), check the Github Actions output.
 
-## 👀 Want to learn more?
+You can also just share the branch if you are working with other developers.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+#### Pull requests
+
+If you are making significant changes, please make a pull request from your `feature/` branch into the `develop` branch and assign another develop to review your work.
+
+If you are unsure of who to assign, please ask one of the community leaders via Discord or Slack.
+
+#### Keep a CHANGELOG
+
+There is a file in this repository called `CHANGELOG.md`. Once you have merged changes from your feature branch, make sure to record your changes in this file in an appropriate format.
+
+If you are unsure of how to format your change messages, please review [this website](https://keepachangelog.com/).
+
+### Contributors
+
+- Dan Ferguson <gday@danferg.com>
