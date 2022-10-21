@@ -1,9 +1,5 @@
 # Swinburne Leadership Hub
 
-## Roadmap
-
-- [ ] 
-
 ## Technologies
 
 ### Frontend

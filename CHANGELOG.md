@@ -11,3 +11,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Created base AstroJS project
 - Created base README file
 - Created base CHANGELOG file
+- Added @astrojs/sitemap integration
+- Added @astrojs/tailwind integration
