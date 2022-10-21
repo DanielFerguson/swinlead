@@ -14,3 +14,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added @astrojs/sitemap integration
 - Added @astrojs/tailwind integration
 - Added and setup fathom analytics integration
+- Added SEO integration
+- Added robots.txt integration to build step
