@@ -1,0 +1,92 @@
+<script>
+    import Alpine from "alpinejs";
+
+    window.Alpine = Alpine;
+    Alpine.start();
+</script>
+
+<!-- Mobile -->
+<div
+    class="w-full bg-[#001E71] grid grid-cols-2 items-center justify-between sm:hidden"
+    x-data="{ open: false }"
+>
+    <!-- Branding -->
+    <div class="col-span-1 px-4 py-3">
+        <!-- Icon -->
+        <img
+            src="/icon-light.png"
+            alt="Swinburne Leadership Hub icon"
+            class="h-6 w-auto"
+        />
+    </div>
+
+    <!-- Menu Button -->
+    <div class="col-span-1 px-4 py-3 flex justify-end">
+        <!-- Menu Icon -->
+        <button class="text-white" x-on:click="open = !open">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"></path>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Dropdown -->
+    <div
+        class="col-span-2 px-4 pt-4 pb-6 text-white text-sm"
+        x-show="open"
+        x-transition
+    >
+        <nav>
+            <ul class="space-y-3">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<!-- Small+ -->
+<div class="w-full max-w-5xl mx-auto hidden sm:block px-6">
+    <div
+        class="rounded-full bg-[#001E71] h-12 mt-6 items-center justify-between px-6 flex"
+    >
+        <!-- Icon -->
+        <div>
+            <img
+                src="/icon-light.png"
+                alt="Swinburne Leadership Hub icon"
+                class="h-6 w-auto"
+            />
+            <h1 class="sr-only">Swinburne Leadership Hub</h1>
+        </div>
+
+        <!-- Links -->
+        <nav>
+            <ul class="flex space-x-8 md:space-x-12 text-xs text-white">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
+
+        <!-- Blank -->
+        <div></div>
+    </div>
+</div>
