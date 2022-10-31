@@ -41,3 +41,4 @@ If you are unsure of how to format your change messages, please review [this web
 ### Contributors
 
 - Dan Ferguson <gday@danferg.com>
+- Dani Smith <drr.smith0@gmail.com>
